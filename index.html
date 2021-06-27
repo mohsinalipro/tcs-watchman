@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCS Watchman - Watchman exists to watch tracking info when they actually change. It can also trigger actions (playing ring sound).</title>
+</head>
+<body>
+    <form id="tracking">
+        <input type="text" name="tracking-no" />
+        <button type="submit" onclick="this.setAttribute('disabled', 'true')">Watch</button>
+    </form>
+    <div id="result">
+        <div id="shipmentDetails"></div>
+        <div id="checkpoints"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
